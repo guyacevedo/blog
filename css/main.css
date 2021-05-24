@@ -282,7 +282,12 @@ header nav .profile-link a {
     padding-bottom: 5px;
 }
 
-.contact-main-container .contact-left, .contact-right{
+.contact-main-container .contact-left{
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container .contact-right{
     text-align: initial;
     margin-top: 85px;
 }
