@@ -207,6 +207,61 @@ header nav .profile-link a {
     font-size: 35px;
 }
 
+.profile-main {
+    display: grid;
+}
+
+.profile-container {
+    background-color: #e6e9ed;
+    padding: 70px 40px;
+    margin-bottom: 50px;
+}
+
+
+.profile-main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+}
+
+.profile-img-container {
+    grid-column: 1;
+  
+}
+
+.profile-img-container img {
+    width: 85%;
+}
+
+.profile-info-container {
+    grid-column: 2;
+}
+
+.profile-info-container p {
+    margin-bottom: 35px;
+}
+
+.profile-proyects-container {
+    padding: 0 50px 40px;
+}
+
+.profile-proyects-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.profile-proyects-container .proyects-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.profile-proyects-container .proyects-container p {
+    margin-bottom: 35px;
+}
+
 .contact-main-container {
     width: 100%;
     height: 250px;
